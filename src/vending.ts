@@ -1,3 +1,5 @@
+import {UI} from 'ui';
+
 
 /**
  * Represents a vending machine that gives out Activation Cards.
@@ -6,7 +8,7 @@ export class VendingMachine {
   
   public entity: Entity;
   
-  constructor(transf: Transform) {
+  constructor(transf: Transform, ui: UI) {
     
     this.entity = new Entity();
     this.entity.addComponent(transf);
@@ -17,7 +19,7 @@ export class VendingMachine {
     this.entity.addComponent(col);
     
     this.entity.addComponent(new OnClick(() => {
-      log('Vending machine clicked!');
+      ui.addMessage('Vending machine clicked!');
     }));
     
     engine.addEntity(this.entity);

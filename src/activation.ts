@@ -1,3 +1,4 @@
+import {UI} from 'ui';
 
 /**
  * Represents an activation machine that, when given an Activation Card, gives out a Voxel Card.
@@ -6,7 +7,7 @@ export class ActivationMachine {
   
   public entity: Entity;
   
-  constructor(transf: Transform) {
+  constructor(transf: Transform, ui: UI) {
     
     this.entity = new Entity();
     this.entity.addComponent(transf);
@@ -17,7 +18,7 @@ export class ActivationMachine {
     this.entity.addComponent(col);
     
     this.entity.addComponent(new OnClick(() => {
-      log('Activation machine clicked!');
+      ui.addMessage('Activation machine clicked!');
     }));
     
     engine.addEntity(this.entity);
