@@ -12,7 +12,7 @@ export class VendingMachine {
     
     this.entity = new Entity();
     this.entity.addComponent(transf);
-    this.entity.addComponent(new BoxShape());
+    this.entity.addComponent(new GLTFShape("Models/machine2_v3.gltf"));
     
     let col = new Material();
     col.albedoColor = Color3.Red();
