@@ -18,28 +18,20 @@ export class UI {
     let sidebar = new UIContainerRect(canvas);
     sidebar.adaptWidth = false;
     sidebar.adaptHeight = false;
-    sidebar.width = '20%';
+    sidebar.width = '22%';
     sidebar.hAlign = 'right';
     sidebar.vAlign = 'bottom';
     sidebar.height = '70%';
     sidebar.color = Color4.Black();
 
 
-    let inventory = new UIScrollRect(sidebar);
-    inventory.width = '100%';
-    inventory.height = '50%';
-    inventory.vAlign = 'top';
-    inventory.hAlign = 'left';
-    inventory.backgroundColor = Color4.Gray();
-    inventory.isVertical = true;
-    
     
     let messageArea = new UIScrollRect(sidebar);
     messageArea.width = '100%';
     messageArea.height = '50%';
-    messageArea.vAlign = 'bottom';
+    messageArea.vAlign = 'top';
     messageArea.hAlign = 'left';
-    messageArea.backgroundColor = Color4.Gray();
+    //messageArea.backgroundColor = Color4.Gray();
     messageArea.isVertical = true;
     
     this.stack = new UIContainerStack(messageArea);
@@ -51,7 +43,15 @@ export class UI {
     //stack.color = Color4.Red();
     stack.stackOrientation = UIStackOrientation.VERTICAL;
     
-  
+    
+    let inventory = new UIScrollRect(sidebar);
+    inventory.width = '100%';
+    inventory.height = '50%';
+    inventory.vAlign = 'bottom';
+    inventory.hAlign = 'left';
+    //inventory.backgroundColor = Color4.Gray();
+    inventory.isVertical = true;
+        
   
     this.addMessage("Welcome to the Democratic People's Republic of Yapetey!");
   }

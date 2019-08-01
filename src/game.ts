@@ -7,7 +7,8 @@ import {UI} from 'ui';
 let ui = new UI();
 
 let vending = new VendingMachine(new Transform({
-  position: new Vector3(8, 4.5, 86)
+  position: new Vector3(5, 4.3, 86),
+  rotation: Quaternion.Euler(0, 15, 0)
 }), ui);
 
 let activation = new ActivationMachine(new Transform({
