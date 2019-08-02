@@ -1,4 +1,5 @@
 import {InventoryItem} from 'inventoryitem';
+import {UserData} from 'userdata';
 
 
 /**
@@ -7,14 +8,14 @@ import {InventoryItem} from 'inventoryitem';
 export class UI {
   
 
-  private userState: {[index: string]: []};
+  private userState: {[index: string]: UserData};
   private canvas: UICanvas;
   private messages: String[];
   private stack: UIContainerStack;
   private inventory: UIScrollRect;
-  private invenCount: number;
+  private invenCount: number = 0;
   
-  constructor(userState: {[index: string]: []}, address: string) {
+  constructor(userState: {[index: string]: UserData}, address: string) {
     
     this.userState = userState;
     this.messages = [];
@@ -78,6 +79,7 @@ export class UI {
     let img = new UIImage(this.inventory, new Texture(item.img));
     img.width = 64;
     img.height = 64;
+    img.positionX = ((this.invenCount % 4) * 25) + '%';
     img.vAlign = 'top';
     img.hAlign = 'left';
     this.invenCount++;

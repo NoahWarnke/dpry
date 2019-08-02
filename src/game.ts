@@ -2,13 +2,14 @@ import {VendingMachine} from 'vending';
 import {ActivationMachine} from 'activation';
 import {Scenery} from 'scenery';
 import {UI} from 'ui';
+import {UserData} from 'userdata';
 
 import * as EthereumController from "@decentraland/EthereumController";
 
 // Define a wrapper function for all game setup. This lets us do async stuff inside it.
 async function setup() {
   
-  let userState = {};
+  let userState: {[index: string]: UserData} = {};
   let address = undefined;
   
   // Add user's eth ID to userState array.
@@ -16,9 +17,7 @@ async function setup() {
   try {
     address = await EthereumController.getUserAccount()
     log (address);
-    userState[address] = {
-      inventory: []
-    };
+    userState[address] = new UserData;
   } catch (error) {
     log(error.toString());
   }
