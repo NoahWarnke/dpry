@@ -3,17 +3,44 @@ import {ActivationMachine} from 'activation';
 import {Scenery} from 'scenery';
 import {UI} from 'ui';
 
-// UI
-let ui = new UI();
+import * as EthereumController from "@decentraland/EthereumController";
 
-let vending = new VendingMachine(new Transform({
-  position: new Vector3(5, 4.3, 86),
-  rotation: Quaternion.Euler(0, 15, 0)
-}), ui);
+// Define a wrapper function for all game setup. This lets us do async stuff inside it.
+async function setup() {
+  
+  let userState = {};
+  let address = undefined;
+  
+  // Add user's eth ID to userState array.
+  // Currently not multiplayer,so just one user.
+  try {
+    address = await EthereumController.getUserAccount()
+    log (address);
+    userState[address] = {
+      inventory: []
+    };
+  } catch (error) {
+    log(error.toString());
+  }
+  
+  // UI
+  let ui = new UI(userState, address);
 
-let activation = new ActivationMachine(new Transform({
-  position: new Vector3(13, 0, 116),
-  rotation: Quaternion.Euler(0, -45, 0)
-}), ui);
+  // Vending machine
+  let vending = new VendingMachine(new Transform({
+    position: new Vector3(5, 4.3, 86),
+    rotation: Quaternion.Euler(0, 15, 0)
+  }), ui);
 
-let scenery = new Scenery();
+  // Activation machine
+  let activation = new ActivationMachine(new Transform({
+    position: new Vector3(13, 0, 116),
+    rotation: Quaternion.Euler(0, -45, 0)
+  }), ui);
+
+  // Scenery (including the gallery)
+  let scenery = new Scenery();
+}
+
+// Call our wrapper.
+setup();

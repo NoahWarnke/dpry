@@ -5,10 +5,12 @@ import {UI} from 'ui';
  */
 export class ActivationMachine {
   
+  public ui: UI;
   public entity: Entity;
   
   constructor(transf: Transform, ui: UI) {
     
+    this.ui = ui;
     this.entity = new Entity();
     this.entity.addComponent(transf);
     this.entity.addComponent(new GLTFShape("Models/machine2_v4.gltf"));
@@ -27,7 +29,11 @@ export class ActivationMachine {
     button.setParent(this.entity);
     
     button.addComponent(new OnClick(() => {
-      ui.addMessage('Activation machine clicked!');
+      this.activate();
     }));
+  }
+  
+  public activate() {
+    this.ui.addMessage('Activation machine clicked!');
   }
 }

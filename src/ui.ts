@@ -4,12 +4,13 @@
  */
 export class UI {
   
-  messages: String[];
+  private userState: {[index: string]: []};
+  private messages: String[];
+  private stack: UIContainerStack;
   
-  stack: UIContainerStack;
-  
-  constructor() {
+  constructor(userState: {[index: string]: []}, address: string) {
     
+    this.userState = userState;
     this.messages = [];
     
     // Create screenspace component
@@ -28,7 +29,7 @@ export class UI {
     
     let messageArea = new UIScrollRect(sidebar);
     messageArea.width = '100%';
-    messageArea.height = '50%';
+    messageArea.height = '40%';
     messageArea.vAlign = 'top';
     messageArea.hAlign = 'left';
     //messageArea.backgroundColor = Color4.Gray();
@@ -53,7 +54,8 @@ export class UI {
     inventory.isVertical = true;
         
   
-    this.addMessage("Welcome to the Democratic People's Republic of Yapetey!");
+    this.addMessage("Welcome to the Democratic People's Republic of Yetepey!");
+    this.addMessage("Address: " + address);
   }
   
   public addMessage(message: string) {

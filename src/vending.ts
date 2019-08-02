@@ -6,9 +6,12 @@ import {UI} from 'ui';
  */
 export class VendingMachine {
   
+  private ui: UI;
   public entity: Entity;
   
   constructor(transf: Transform, ui: UI) {
+    
+    this.ui = ui;
     
     this.entity = new Entity();
     this.entity.addComponent(transf);
@@ -30,8 +33,12 @@ export class VendingMachine {
     button.setParent(this.entity);
     
     button.addComponent(new OnClick(() => {
-      ui.addMessage('Vending machine clicked!');
+      this.vend();
     }));
     
+  }
+  
+  public vend() {
+    this.ui.addMessage('Vending machine clicked!');
   }
 }
