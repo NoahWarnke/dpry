@@ -1,12 +1,18 @@
+import {InventoryItem} from 'inventoryitem';
+
 
 /**
  * All the UI elements for the scene.
  */
 export class UI {
   
+
   private userState: {[index: string]: []};
+  private canvas: UICanvas;
   private messages: String[];
   private stack: UIContainerStack;
+  private inventory: UIScrollRect;
+  private invenCount: number;
   
   constructor(userState: {[index: string]: []}, address: string) {
     
@@ -14,9 +20,9 @@ export class UI {
     this.messages = [];
     
     // Create screenspace component
-    const canvas = new UICanvas();
+    this.canvas = new UICanvas();
     
-    let sidebar = new UIContainerRect(canvas);
+    let sidebar = new UIContainerRect(this.canvas);
     sidebar.adaptWidth = false;
     sidebar.adaptHeight = false;
     sidebar.width = '22%';
@@ -45,13 +51,13 @@ export class UI {
     stack.stackOrientation = UIStackOrientation.VERTICAL;
     
     
-    let inventory = new UIScrollRect(sidebar);
-    inventory.width = '100%';
-    inventory.height = '50%';
-    inventory.vAlign = 'bottom';
-    inventory.hAlign = 'left';
+    this.inventory = new UIScrollRect(sidebar);
+    this.inventory.width = '100%';
+    this.inventory.height = '50%';
+    this.inventory.vAlign = 'bottom';
+    this.inventory.hAlign = 'left';
     //inventory.backgroundColor = Color4.Gray();
-    inventory.isVertical = true;
+    this.inventory.isVertical = true;
         
   
     this.addMessage("Welcome to the Democratic People's Republic of Yetepey!");
@@ -66,5 +72,14 @@ export class UI {
     text.color = Color4.White();
     text.vAlign = 'top';
     text.hAlign = 'left';
+  }
+  
+  public addInventoryItem(item: InventoryItem) {
+    let img = new UIImage(this.inventory, new Texture(item.img));
+    img.width = 64;
+    img.height = 64;
+    img.vAlign = 'top';
+    img.hAlign = 'left';
+    this.invenCount++;
   }
 }

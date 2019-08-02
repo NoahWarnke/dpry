@@ -1,4 +1,5 @@
 import {UI} from 'ui';
+import {ActivationCard} from 'activationcard';
 
 
 /**
@@ -39,6 +40,8 @@ export class VendingMachine {
   }
   
   public vend() {
-    this.ui.addMessage('Vending machine clicked!');
+    let card = ActivationCard.generate();
+    this.ui.addInventoryItem(card);
+    this.ui.addMessage('You have been vended a ' + card.suitName + ' card.');
   }
 }
