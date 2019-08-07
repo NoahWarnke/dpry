@@ -76,12 +76,20 @@ export class UI {
   }
   
   public addInventoryItem(item: InventoryItem) {
-    let img = new UIImage(this.inventory, new Texture(item.img));
-    img.width = 64;
-    img.height = 64;
-    img.positionX = ((this.invenCount % 4) * 25) + '%';
-    img.vAlign = 'top';
-    img.hAlign = 'left';
+    let uiImg = new UIImage(this.inventory, new Texture(item.img));
+    uiImg.width = 64;
+    uiImg.height = 64;
+    uiImg.positionX = ((this.invenCount % 4) * 25) + '%';
+    uiImg.vAlign = 'top';
+    uiImg.hAlign = 'left';
+    uiImg.sourceWidth = 128;
+    uiImg.sourceHeight = 128;
     this.invenCount++;
+    
+    item.uiImg = uiImg;
+  }
+  
+  public removeInventoryItem(item: InventoryItem) {
+    
   }
 }
