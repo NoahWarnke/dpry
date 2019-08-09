@@ -1,0 +1,1616 @@
+{
+    "accessors": [
+        {
+            "bufferView": 16,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone_Armature_FlipA_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2322,
+            "max": [
+                1495
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_activation_hearts_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 14,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                3.4854447841644287,
+                0.0
+            ],
+            "min": [
+                0.0,
+                -1.0999999046325684,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_FlipA_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.8333333333333357
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_SpinJumpA_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_HitBox_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.8999998569488525,
+                0.8000001907348633,
+                1.75
+            ],
+            "min": [
+                -0.8999998569488525,
+                -0.8000001907348633,
+                -1.75
+            ],
+            "name": "accessor_buffer_HitBox_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.8333333333333357
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_SpinB_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 22,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.0,
+                0.09999997913837433,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_Idle_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "name": "accessor_buffer_HitBox_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 9,
+            "byteOffset": 0,
+            "componentType": 5121,
+            "count": 24,
+            "max": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "accessor_buffer_HitBox_JOINTS_0_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1496,
+            "max": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_activation_hearts_WEIGHTS_0_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 18,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                3.4854447841644287,
+                0.0
+            ],
+            "min": [
+                0.0,
+                -1.0999999046325684,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_FlipB_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.5700922994638892e-16,
+                1.0,
+                0.9999938607215881,
+                1.5698015289349645e-16
+            ],
+            "min": [
+                0.0,
+                -0.7071065902709961,
+                -0.6934928297996521,
+                -1.5700920347660931e-16
+            ],
+            "name": "accessor_buffer_Bone_Armature_FlipB_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1496,
+            "max": [
+                0.9935064911842346,
+                0.9932626583613455
+            ],
+            "min": [
+                0.0064934915862977505,
+                0.0067372918128967285
+            ],
+            "name": "accessor_buffer_activation_hearts_TEXCOORD_0_0",
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 11,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1,
+            "max": [
+                -0.049999989569187164,
+                0.0,
+                0.0,
+                0.0,
+                -7.408775129605192e-22,
+                -8.146032293154803e-09,
+                0.049999989569187164,
+                0.0,
+                4.5474734072206875e-15,
+                0.049999989569187164,
+                8.146027852262705e-09,
+                0.0,
+                1.1953494549743482e-06,
+                -1.175974726676941,
+                1.0595099411148112e-06,
+                1.0
+            ],
+            "min": [
+                -0.049999989569187164,
+                0.0,
+                0.0,
+                0.0,
+                -7.408775129605192e-22,
+                -8.146032293154803e-09,
+                0.049999989569187164,
+                0.0,
+                4.5474734072206875e-15,
+                0.049999989569187164,
+                8.146027852262705e-09,
+                0.0,
+                1.1953494549743482e-06,
+                -1.175974726676941,
+                1.0595099411148112e-06,
+                1.0
+            ],
+            "name": "accessor_buffer_IBM_activation_hearts_skin_0",
+            "type": "MAT4"
+        },
+        {
+            "bufferView": 17,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.8333333333333357
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_FlipB_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_Idle_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinA_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1496,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "name": "accessor_buffer_activation_hearts_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1496,
+            "max": [
+                16.500030517578125,
+                1.9999885559082031,
+                46.99999237060547
+            ],
+            "min": [
+                -16.499982833862305,
+                -2.0000381469726562,
+                -4.100799560546875e-05
+            ],
+            "name": "accessor_buffer_activation_hearts_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 34,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                1.9999995231628418,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinJumpA_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 27,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                1.0,
+                0.0,
+                0.9996855854988098
+            ],
+            "min": [
+                0.0,
+                -0.9996241927146912,
+                0.0,
+                -0.006835860200226307
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinA_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 21,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                2.0000000000000027
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_Idle_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 39,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -0.9907416105270386,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinJumpB_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 26,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinA_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 15,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.5700922994638892e-16,
+                1.0,
+                0.9999938607215881,
+                1.5583847159460586e-16
+            ],
+            "min": [
+                0.0,
+                -0.6560437083244324,
+                -0.6934928297996521,
+                -1.5662654310779738e-16
+            ],
+            "name": "accessor_buffer_Bone_Armature_FlipA_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 37,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.8333333333333357
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_SpinJumpB_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 32,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinB_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5121,
+            "count": 1496,
+            "max": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "accessor_buffer_activation_hearts_JOINTS_0_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 20,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone_Armature_FlipB_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 31,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -0.9996150135993958,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinB_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 36,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinJumpA_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                1.0,
+                0.0,
+                0.9997765421867371
+            ],
+            "min": [
+                0.0,
+                -0.9999476671218872,
+                0.0,
+                -3.019916050561733e-07
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinJumpA_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 38,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                1.9999995231628418,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinJumpB_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0000001192092896,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                1.0000001192092896,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_HitBox_WEIGHTS_0_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 13,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.8333333333333357
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_FlipA_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 25,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.8333333333333357
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_SpinA_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 30,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinB_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 61,
+            "max": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_Idle_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 12,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1,
+            "max": [
+                -0.9999998211860657,
+                0.0,
+                0.0,
+                0.0,
+                1.3642422423947725e-13,
+                1.499999761581421,
+                -1.3642422423947725e-13,
+                0.0,
+                0.0,
+                0.0,
+                -0.09999997913837433,
+                0.0,
+                1.2102507298550336e-06,
+                0.02402496337890625,
+                1.0595098274279735e-06,
+                1.0
+            ],
+            "min": [
+                -0.9999998211860657,
+                0.0,
+                0.0,
+                0.0,
+                1.3642422423947725e-13,
+                1.499999761581421,
+                -1.3642422423947725e-13,
+                0.0,
+                0.0,
+                0.0,
+                -0.09999997913837433,
+                0.0,
+                1.2102507298550336e-06,
+                0.02402496337890625,
+                1.0595098274279735e-06,
+                1.0
+            ],
+            "name": "accessor_buffer_IBM_HitBox_skin_0",
+            "type": "MAT4"
+        },
+        {
+            "bufferView": 40,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone_Armature_SpinJumpB_2",
+            "type": "VEC3"
+        }
+    ],
+    "animations": [
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "FlipA",
+            "samplers": [
+                {
+                    "input": 35,
+                    "interpolation": "LINEAR",
+                    "output": 2
+                },
+                {
+                    "input": 35,
+                    "interpolation": "LINEAR",
+                    "output": 25
+                },
+                {
+                    "input": 35,
+                    "interpolation": "LINEAR",
+                    "output": 0
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "FlipB",
+            "samplers": [
+                {
+                    "input": 15,
+                    "interpolation": "LINEAR",
+                    "output": 11
+                },
+                {
+                    "input": 15,
+                    "interpolation": "LINEAR",
+                    "output": 12
+                },
+                {
+                    "input": 15,
+                    "interpolation": "LINEAR",
+                    "output": 29
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "Idle",
+            "samplers": [
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 38
+                },
+                {
+                    "input": 22,
+                    "interpolation": "LINEAR",
+                    "output": 16
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "SpinA",
+            "samplers": [
+                {
+                    "input": 36,
+                    "interpolation": "LINEAR",
+                    "output": 24
+                },
+                {
+                    "input": 36,
+                    "interpolation": "LINEAR",
+                    "output": 21
+                },
+                {
+                    "input": 36,
+                    "interpolation": "LINEAR",
+                    "output": 17
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "SpinB",
+            "samplers": [
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 37
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 30
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 27
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "SpinJumpA",
+            "samplers": [
+                {
+                    "input": 3,
+                    "interpolation": "LINEAR",
+                    "output": 20
+                },
+                {
+                    "input": 3,
+                    "interpolation": "LINEAR",
+                    "output": 32
+                },
+                {
+                    "input": 3,
+                    "interpolation": "LINEAR",
+                    "output": 31
+                }
+            ]
+        },
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 3,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 3,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 3,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "SpinJumpB",
+            "samplers": [
+                {
+                    "input": 26,
+                    "interpolation": "LINEAR",
+                    "output": 33
+                },
+                {
+                    "input": 26,
+                    "interpolation": "LINEAR",
+                    "output": 23
+                },
+                {
+                    "input": 26,
+                    "interpolation": "LINEAR",
+                    "output": 40
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 17952,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_activation_hearts_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 17952,
+            "byteOffset": 17952,
+            "byteStride": 12,
+            "name": "bufferView_buffer_activation_hearts_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11968,
+            "byteOffset": 35904,
+            "byteStride": 8,
+            "name": "bufferView_buffer_activation_hearts_TEXCOORD_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4648,
+            "byteOffset": 47872,
+            "name": "bufferView_buffer_activation_hearts_0",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 23936,
+            "byteOffset": 52520,
+            "byteStride": 16,
+            "name": "bufferView_buffer_activation_hearts_JOINTS_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 23936,
+            "byteOffset": 76456,
+            "byteStride": 16,
+            "name": "bufferView_buffer_activation_hearts_WEIGHTS_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 100392,
+            "byteStride": 12,
+            "name": "bufferView_buffer_HitBox_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 100680,
+            "byteStride": 12,
+            "name": "bufferView_buffer_HitBox_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 76,
+            "byteOffset": 100968,
+            "name": "bufferView_buffer_HitBox_0",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 101044,
+            "byteStride": 16,
+            "name": "bufferView_buffer_HitBox_JOINTS_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 101428,
+            "byteStride": 16,
+            "name": "bufferView_buffer_HitBox_WEIGHTS_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 64,
+            "byteOffset": 101812,
+            "byteStride": 64,
+            "name": "bufferView_buffer_IBM_activation_hearts_skin_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 64,
+            "byteOffset": 101876,
+            "byteStride": 64,
+            "name": "bufferView_buffer_IBM_HitBox_skin_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 101940,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_FlipA_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 102164,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_FlipA_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 896,
+            "byteOffset": 102836,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_FlipA_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 103732,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_FlipA_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 104404,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_FlipB_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 104628,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_FlipB_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 896,
+            "byteOffset": 105300,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_FlipB_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 106196,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_FlipB_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 244,
+            "byteOffset": 106868,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_Idle_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 107112,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_Idle_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 976,
+            "byteOffset": 107844,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_Idle_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 732,
+            "byteOffset": 108820,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_Idle_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 109552,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_SpinA_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 109776,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinA_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 896,
+            "byteOffset": 110448,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_SpinA_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 111344,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinA_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 112016,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_SpinB_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 112240,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinB_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 896,
+            "byteOffset": 112912,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_SpinB_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 113808,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinB_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 114480,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_SpinJumpA_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 114704,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinJumpA_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 896,
+            "byteOffset": 115376,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_SpinJumpA_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 116272,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinJumpA_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 116944,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_SpinJumpB_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 117168,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinJumpB_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 896,
+            "byteOffset": 117840,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_SpinJumpB_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 118736,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_SpinJumpB_2"
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 119408,
+            "name": "buffer_activation_hearts",
+            "uri": "buffer_activation_hearts.bin"
+        }
+    ],
+    "images": [
+        {
+            "name": "activation_hearts",
+            "uri": "activation_hearts.png"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "BLEND",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "HitBoxMat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "palette.001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "activation_hearts",
+            "primitives": [
+                {
+                    "attributes": {
+                        "JOINTS_0": 28,
+                        "NORMAL": 18,
+                        "POSITION": 19,
+                        "TEXCOORD_0": 13,
+                        "WEIGHTS_0": 10
+                    },
+                    "indices": 1,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "HitBox",
+            "primitives": [
+                {
+                    "attributes": {
+                        "JOINTS_0": 9,
+                        "NORMAL": 8,
+                        "POSITION": 5,
+                        "WEIGHTS_0": 34
+                    },
+                    "indices": 4,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "activation_hearts",
+            "rotation": [
+                -0.7071068286895752,
+                -6.431100362533707e-14,
+                -1.0030337985649028e-20,
+                0.7071067094802856
+            ],
+            "scale": [
+                0.049999989569187164,
+                0.049999989569187164,
+                0.049999989569187164
+            ],
+            "skin": 0,
+            "translation": [
+                -1.1953492276006727e-06,
+                -1.1759746074676514,
+                -1.0595099411148112e-06
+            ]
+        },
+        {
+            "children": [
+                0,
+                2,
+                3
+            ],
+            "name": "Armature",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.10000002384185791,
+                0.10000002384185791,
+                0.10000002384185791
+            ],
+            "translation": [
+                1.1953497391914425e-07,
+                0.11759749054908752,
+                1.0595100263799395e-07
+            ]
+        },
+        {
+            "mesh": 1,
+            "name": "HitBox",
+            "rotation": [
+                4.5474749318799926e-14,
+                -7.703517280279915e-36,
+                4.5474749318799926e-14,
+                1.0
+            ],
+            "scale": [
+                0.9999998211860657,
+                1.499999761581421,
+                0.09999997913837433
+            ],
+            "skin": 1,
+            "translation": [
+                -1.2102506161681958e-06,
+                0.0240250825881958,
+                -1.0595097137411358e-06
+            ]
+        },
+        {
+            "name": "Bone",
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "name": "Kd",
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 30
+            },
+            "name": "Scene",
+            "nodes": [
+                1
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "inverseBindMatrices": 14,
+            "joints": [
+                3
+            ],
+            "name": "activation_hearts",
+            "skeleton": 3
+        },
+        {
+            "inverseBindMatrices": 39,
+            "joints": [
+                3
+            ],
+            "name": "HitBox",
+            "skeleton": 3
+        }
+    ],
+    "textures": [
+        {
+            "name": "Kd",
+            "sampler": 0,
+            "source": 0
+        }
+    ]
+}
