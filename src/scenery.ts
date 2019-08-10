@@ -10,5 +10,14 @@ export class Scenery {
     }));
     
     engine.addEntity(gallery);
+    
+    let tower = new Entity();
+    
+    tower.addComponent(new GLTFShape("Models/Ytower_78m50em.gltf"));
+    tower.addComponent(new Transform({
+      position: new Vector3(8, 0, 152)
+    }));
+    
+    engine.addEntity(tower);
   }
 }
